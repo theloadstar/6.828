@@ -23,7 +23,7 @@
 
 安装了以后会出现如下的报错：
 
-![pderror](graph/pderror.png)
+![pderror](../graph/pderror.png)
 
 根据[网上](https://blog.csdn.net/weixin_40005874/article/details/112602502)的解决方案，应该是软件与Big Sur系统的兼容性问题，在终端输入以下两条命令即可：
 
@@ -34,7 +34,7 @@ open -a Parallels\ Desktop.app
 
 之后每次打开PD都需要这样打开，如果觉得麻烦可以参考[这里](https://www.jianshu.com/p/ca866786b3a4)的方法使用Apple自带的**自动操作**，就是LaunchPad实用工具里那个小机器人配置一下。我没配，直接一直开着了就，实测资源占用很小。
 
-打开 Parallels Desktop以后，左上角菜单栏`文件`->`新建`。在弹出的窗口中选择下载Ubuntu Linux即可。![pd](graph/pd.png)
+打开 Parallels Desktop以后，左上角菜单栏`文件`->`新建`。在弹出的窗口中选择下载Ubuntu Linux即可。![pd](../graph/pd.png)
 
 等一会儿，下载完按照步骤走就能进入Linux的界面了。虚拟机内存可以分大一点，4G或者6G都行。
 
@@ -62,7 +62,7 @@ deb http://mirrors.aliyun.com/ubuntu bionic-proposed main multiverse restricted 
 deb http://mirrors.aliyun.com/ubuntu bionic-backports main multiverse restricted universe
 ```
 
-4. 打开系统的`Software&Updates`应用，按下图所示设置：![su](graph/su.png)
+4. 打开系统的`Software&Updates`应用，按下图所示设置：![su](../graph/su.png)
 
 ​	其实这一步可能没必要，踩坑过程中根据[这里](https://blog.csdn.net/guyuealian/article/details/80833986)改的，懒得改回去了。🤷‍♂️
 
@@ -261,13 +261,13 @@ vim kern/kernel.ld
 
 重新`make clean`，然后重新`make`。
 
-![make](graph/make.jpg)
+![make](../graph/make.jpg)
 
 出现以上说明make成功。
 
 之后`make qemu`，大功告成🎉🎉🎉
 
-![makeqemu](graph/makeqemu.jpg)
+![makeqemu](../graph/makeqemu.jpg)
 
 按下`control`+`a`，之后按下`x`即可退出模拟器。
 
