@@ -62,124 +62,116 @@ vl.o: vl.c config-host.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/deprecated/grel.h \
  /usr/include/glib-2.0/glib/deprecated/gthread.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
- /home/parallels/6.828/qemu/include/qemu/sockets.h \
- /home/parallels/6.828/qemu/include/qemu/option.h \
- /home/parallels/6.828/qemu/include/qemu/queue.h \
- /home/parallels/6.828/qemu/include/qemu/atomic.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h config-host.h \
- /home/parallels/6.828/qemu/include/qapi/error.h qapi-types.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qdict.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qobject.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qlist.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qerror.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qstring.h \
- /home/parallels/6.828/qemu/include/qemu/error-report.h \
- /home/parallels/6.828/qemu/include/hw/hw.h \
- /home/parallels/6.828/qemu/include/qemu-common.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h \
- /home/parallels/6.828/qemu/include/qemu/typedefs.h \
- /home/parallels/6.828/qemu/include/glib-compat.h \
- /home/parallels/6.828/qemu/include/qemu/option.h \
- /home/parallels/6.828/qemu/include/sysemu/os-posix.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h \
- /home/parallels/6.828/qemu/include/qemu/bswap.h \
- /home/parallels/6.828/qemu/include/fpu/softfloat.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h \
- /home/parallels/6.828/qemu/include/qemu/module.h \
- /home/parallels/6.828/qemu/include/exec/cpu-common.h \
- /home/parallels/6.828/qemu/include/exec/hwaddr.h \
- /home/parallels/6.828/qemu/include/exec/poison.h \
- /home/parallels/6.828/qemu/include/qemu/bswap.h \
- /home/parallels/6.828/qemu/include/exec/ioport.h \
- /home/parallels/6.828/qemu/include/qom/object.h \
- /home/parallels/6.828/qemu/include/exec/memory.h \
- /home/parallels/6.828/qemu/include/qemu/int128.h \
- /home/parallels/6.828/qemu/include/qemu/notify.h \
- /home/parallels/6.828/qemu/include/qemu/rcu.h \
- /home/parallels/6.828/qemu/include/qemu/thread.h \
- /home/parallels/6.828/qemu/include/qemu/thread-posix.h \
- /home/parallels/6.828/qemu/include/hw/irq.h \
- /home/parallels/6.828/qemu/include/block/aio.h \
- /home/parallels/6.828/qemu/include/qemu/typedefs.h \
- /home/parallels/6.828/qemu/include/qemu/event_notifier.h \
- /home/parallels/6.828/qemu/include/qemu/rfifolock.h \
- /home/parallels/6.828/qemu/include/qemu/timer.h \
- /home/parallels/6.828/qemu/include/migration/vmstate.h \
- /home/parallels/6.828/qemu/include/migration/qemu-file.h \
- /home/parallels/6.828/qemu/include/qjson.h \
- /home/parallels/6.828/qemu/include/qemu/log.h \
- /home/parallels/6.828/qemu/include/qom/cpu.h \
- /home/parallels/6.828/qemu/include/hw/qdev-core.h \
- /home/parallels/6.828/qemu/include/qemu/bitmap.h \
- /home/parallels/6.828/qemu/include/qemu/bitops.h \
- /home/parallels/6.828/qemu/include/qemu/host-utils.h \
- /home/parallels/6.828/qemu/include/hw/hotplug.h \
- /home/parallels/6.828/qemu/include/qemu/tls.h \
- /home/parallels/6.828/qemu/include/hw/boards.h \
- /home/parallels/6.828/qemu/include/sysemu/blockdev.h \
- /home/parallels/6.828/qemu/include/block/block.h \
- /home/parallels/6.828/qemu/include/block/coroutine.h \
- /home/parallels/6.828/qemu/include/block/accounting.h \
- /home/parallels/6.828/qemu/include/sysemu/accel.h \
- /home/parallels/6.828/qemu/include/hw/qdev.h \
- /home/parallels/6.828/qemu/include/hw/qdev-properties.h \
- /home/parallels/6.828/qemu/include/hw/usb.h \
- /home/parallels/6.828/qemu/include/hw/i386/pc.h \
- /home/parallels/6.828/qemu/include/hw/isa/isa.h \
- /home/parallels/6.828/qemu/include/hw/block/fdc.h \
- /home/parallels/6.828/qemu/include/net/net.h \
- /home/parallels/6.828/qemu/include/net/queue.h \
- /home/parallels/6.828/qemu/include/hw/i386/ioapic.h \
- /home/parallels/6.828/qemu/include/qemu/range.h \
- /home/parallels/6.828/qemu/include/sysemu/sysemu.h \
- /home/parallels/6.828/qemu/include/qemu/main-loop.h \
- /home/parallels/6.828/qemu/include/hw/pci/pci.h \
- /home/parallels/6.828/qemu/include/sysemu/dma.h \
- /home/parallels/6.828/qemu/include/exec/address-spaces.h \
- /home/parallels/6.828/qemu/include/sysemu/kvm.h \
- /home/parallels/6.828/qemu/include/hw/pci/pcie.h \
- /home/parallels/6.828/qemu/include/hw/pci/pci_regs.h \
- /home/parallels/6.828/qemu/include/hw/pci/pcie_regs.h \
- /home/parallels/6.828/qemu/include/hw/pci/pcie_aer.h \
- /home/parallels/6.828/qemu/include/hw/pci/pci_ids.h \
- /home/parallels/6.828/qemu/include/hw/compat.h \
- /home/parallels/6.828/qemu/include/hw/bt.h \
- /home/parallels/6.828/qemu/include/sysemu/watchdog.h \
- /home/parallels/6.828/qemu/include/hw/i386/smbios.h \
- /home/parallels/6.828/qemu/include/hw/xen/xen.h \
- /home/parallels/6.828/qemu/include/hw/loader.h \
- /home/parallels/6.828/qemu/include/hw/nvram/fw_cfg.h \
- /home/parallels/6.828/qemu/include/monitor/qdev.h \
- /home/parallels/6.828/qemu/include/monitor/monitor.h \
- /home/parallels/6.828/qemu/include/qemu/readline.h \
- /home/parallels/6.828/qemu/include/sysemu/bt.h \
- /home/parallels/6.828/qemu/include/net/slirp.h \
- /home/parallels/6.828/qemu/include/ui/console.h \
- /home/parallels/6.828/qemu/include/ui/qemu-pixman.h \
- /usr/include/pixman-1/pixman.h /usr/include/pixman-1/pixman-version.h \
- /home/parallels/6.828/qemu/include/sysemu/numa.h \
- /home/parallels/6.828/qemu/include/sysemu/hostmem.h \
- /home/parallels/6.828/qemu/include/exec/gdbstub.h \
- /home/parallels/6.828/qemu/include/sysemu/char.h \
- /home/parallels/6.828/qemu/include/qemu/config-file.h \
- /home/parallels/6.828/qemu/include/hw/block/block.h \
- /home/parallels/6.828/qemu/include/migration/block.h \
- /home/parallels/6.828/qemu/include/sysemu/tpm.h audio/audio.h \
- /home/parallels/6.828/qemu/include/migration/migration.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qjson.h qemu-options.h \
+ /root/6.828/qemu/include/qemu/sockets.h \
+ /root/6.828/qemu/include/qemu/option.h \
+ /root/6.828/qemu/include/qemu/queue.h \
+ /root/6.828/qemu/include/qemu/atomic.h \
+ /root/6.828/qemu/include/qemu/compiler.h config-host.h \
+ /root/6.828/qemu/include/qapi/error.h qapi-types.h \
+ /root/6.828/qemu/include/qapi/qmp/qdict.h \
+ /root/6.828/qemu/include/qapi/qmp/qobject.h \
+ /root/6.828/qemu/include/qapi/qmp/qlist.h \
+ /root/6.828/qemu/include/qapi/qmp/qerror.h \
+ /root/6.828/qemu/include/qapi/qmp/qstring.h \
+ /root/6.828/qemu/include/qemu/error-report.h \
+ /root/6.828/qemu/include/hw/hw.h /root/6.828/qemu/include/qemu-common.h \
+ /root/6.828/qemu/include/qemu/compiler.h \
+ /root/6.828/qemu/include/qemu/typedefs.h \
+ /root/6.828/qemu/include/glib-compat.h \
+ /root/6.828/qemu/include/qemu/option.h \
+ /root/6.828/qemu/include/sysemu/os-posix.h \
+ /root/6.828/qemu/include/qemu/osdep.h \
+ /root/6.828/qemu/include/qemu/bswap.h \
+ /root/6.828/qemu/include/fpu/softfloat.h \
+ /root/6.828/qemu/include/qemu/osdep.h \
+ /root/6.828/qemu/include/qemu/module.h \
+ /root/6.828/qemu/include/exec/cpu-common.h \
+ /root/6.828/qemu/include/exec/hwaddr.h \
+ /root/6.828/qemu/include/exec/poison.h \
+ /root/6.828/qemu/include/qemu/bswap.h \
+ /root/6.828/qemu/include/exec/ioport.h \
+ /root/6.828/qemu/include/qom/object.h \
+ /root/6.828/qemu/include/exec/memory.h \
+ /root/6.828/qemu/include/qemu/int128.h \
+ /root/6.828/qemu/include/qemu/notify.h \
+ /root/6.828/qemu/include/qemu/rcu.h \
+ /root/6.828/qemu/include/qemu/thread.h \
+ /root/6.828/qemu/include/qemu/thread-posix.h \
+ /root/6.828/qemu/include/hw/irq.h /root/6.828/qemu/include/block/aio.h \
+ /root/6.828/qemu/include/qemu/typedefs.h \
+ /root/6.828/qemu/include/qemu/event_notifier.h \
+ /root/6.828/qemu/include/qemu/rfifolock.h \
+ /root/6.828/qemu/include/qemu/timer.h \
+ /root/6.828/qemu/include/migration/vmstate.h \
+ /root/6.828/qemu/include/migration/qemu-file.h \
+ /root/6.828/qemu/include/qjson.h /root/6.828/qemu/include/qemu/log.h \
+ /root/6.828/qemu/include/qom/cpu.h \
+ /root/6.828/qemu/include/hw/qdev-core.h \
+ /root/6.828/qemu/include/qemu/bitmap.h \
+ /root/6.828/qemu/include/qemu/bitops.h \
+ /root/6.828/qemu/include/qemu/host-utils.h \
+ /root/6.828/qemu/include/hw/hotplug.h \
+ /root/6.828/qemu/include/qemu/tls.h /root/6.828/qemu/include/hw/boards.h \
+ /root/6.828/qemu/include/sysemu/blockdev.h \
+ /root/6.828/qemu/include/block/block.h \
+ /root/6.828/qemu/include/block/coroutine.h \
+ /root/6.828/qemu/include/block/accounting.h \
+ /root/6.828/qemu/include/sysemu/accel.h \
+ /root/6.828/qemu/include/hw/qdev.h \
+ /root/6.828/qemu/include/hw/qdev-properties.h \
+ /root/6.828/qemu/include/hw/usb.h /root/6.828/qemu/include/hw/i386/pc.h \
+ /root/6.828/qemu/include/hw/isa/isa.h \
+ /root/6.828/qemu/include/hw/block/fdc.h \
+ /root/6.828/qemu/include/net/net.h /root/6.828/qemu/include/net/queue.h \
+ /root/6.828/qemu/include/hw/i386/ioapic.h \
+ /root/6.828/qemu/include/qemu/range.h \
+ /root/6.828/qemu/include/sysemu/sysemu.h \
+ /root/6.828/qemu/include/qemu/main-loop.h \
+ /root/6.828/qemu/include/hw/pci/pci.h \
+ /root/6.828/qemu/include/sysemu/dma.h \
+ /root/6.828/qemu/include/exec/address-spaces.h \
+ /root/6.828/qemu/include/sysemu/kvm.h \
+ /root/6.828/qemu/include/hw/pci/pcie.h \
+ /root/6.828/qemu/include/hw/pci/pci_regs.h \
+ /root/6.828/qemu/include/hw/pci/pcie_regs.h \
+ /root/6.828/qemu/include/hw/pci/pcie_aer.h \
+ /root/6.828/qemu/include/hw/pci/pci_ids.h \
+ /root/6.828/qemu/include/hw/compat.h /root/6.828/qemu/include/hw/bt.h \
+ /root/6.828/qemu/include/sysemu/watchdog.h \
+ /root/6.828/qemu/include/hw/i386/smbios.h \
+ /root/6.828/qemu/include/hw/xen/xen.h \
+ /root/6.828/qemu/include/hw/loader.h \
+ /root/6.828/qemu/include/hw/nvram/fw_cfg.h \
+ /root/6.828/qemu/include/monitor/qdev.h \
+ /root/6.828/qemu/include/monitor/monitor.h \
+ /root/6.828/qemu/include/qemu/readline.h \
+ /root/6.828/qemu/include/sysemu/bt.h \
+ /root/6.828/qemu/include/net/slirp.h \
+ /root/6.828/qemu/include/ui/console.h \
+ /root/6.828/qemu/include/ui/qemu-pixman.h /usr/include/pixman-1/pixman.h \
+ /usr/include/pixman-1/pixman-version.h \
+ /root/6.828/qemu/include/sysemu/numa.h \
+ /root/6.828/qemu/include/sysemu/hostmem.h \
+ /root/6.828/qemu/include/exec/gdbstub.h \
+ /root/6.828/qemu/include/sysemu/char.h \
+ /root/6.828/qemu/include/qemu/config-file.h \
+ /root/6.828/qemu/include/hw/block/block.h \
+ /root/6.828/qemu/include/migration/block.h \
+ /root/6.828/qemu/include/sysemu/tpm.h audio/audio.h \
+ /root/6.828/qemu/include/migration/migration.h \
+ /root/6.828/qemu/include/qapi/qmp/qjson.h qemu-options.h \
  qemu-options-wrapper.h qemu-options.def qmp-commands.h qapi-types.h \
- /home/parallels/6.828/qemu/include/sysemu/qtest.h \
- /home/parallels/6.828/qemu/include/disas/disas.h slirp/libslirp.h \
- /home/parallels/6.828/qemu/include/trace.h trace/generated-tracers.h \
+ /root/6.828/qemu/include/sysemu/qtest.h \
+ /root/6.828/qemu/include/disas/disas.h slirp/libslirp.h \
+ /root/6.828/qemu/include/trace.h trace/generated-tracers.h \
  trace/generated-events.h trace/event-internal.h trace/control.h \
- trace/control-internal.h \
- /home/parallels/6.828/qemu/include/sysemu/cpus.h \
- /home/parallels/6.828/qemu/include/sysemu/arch_init.h qmp-commands.h \
- /home/parallels/6.828/qemu/include/ui/qemu-spice.h \
- /home/parallels/6.828/qemu/include/qapi/string-input-visitor.h \
- /home/parallels/6.828/qemu/include/qapi/visitor.h \
- /home/parallels/6.828/qemu/include/qapi/opts-visitor.h \
- /home/parallels/6.828/qemu/include/qom/object_interfaces.h qapi-event.h
+ trace/control-internal.h /root/6.828/qemu/include/sysemu/cpus.h \
+ /root/6.828/qemu/include/sysemu/arch_init.h qmp-commands.h \
+ /root/6.828/qemu/include/ui/qemu-spice.h \
+ /root/6.828/qemu/include/qapi/string-input-visitor.h \
+ /root/6.828/qemu/include/qapi/visitor.h \
+ /root/6.828/qemu/include/qapi/opts-visitor.h \
+ /root/6.828/qemu/include/qom/object_interfaces.h qapi-event.h
 
 config-host.h:
 
@@ -339,223 +331,223 @@ config-host.h:
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
-/home/parallels/6.828/qemu/include/qemu/sockets.h:
+/root/6.828/qemu/include/qemu/sockets.h:
 
-/home/parallels/6.828/qemu/include/qemu/option.h:
+/root/6.828/qemu/include/qemu/option.h:
 
-/home/parallels/6.828/qemu/include/qemu/queue.h:
+/root/6.828/qemu/include/qemu/queue.h:
 
-/home/parallels/6.828/qemu/include/qemu/atomic.h:
+/root/6.828/qemu/include/qemu/atomic.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
 config-host.h:
 
-/home/parallels/6.828/qemu/include/qapi/error.h:
+/root/6.828/qemu/include/qapi/error.h:
 
 qapi-types.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qdict.h:
+/root/6.828/qemu/include/qapi/qmp/qdict.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qobject.h:
+/root/6.828/qemu/include/qapi/qmp/qobject.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qlist.h:
+/root/6.828/qemu/include/qapi/qmp/qlist.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qerror.h:
+/root/6.828/qemu/include/qapi/qmp/qerror.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qstring.h:
+/root/6.828/qemu/include/qapi/qmp/qstring.h:
 
-/home/parallels/6.828/qemu/include/qemu/error-report.h:
+/root/6.828/qemu/include/qemu/error-report.h:
 
-/home/parallels/6.828/qemu/include/hw/hw.h:
+/root/6.828/qemu/include/hw/hw.h:
 
-/home/parallels/6.828/qemu/include/qemu-common.h:
+/root/6.828/qemu/include/qemu-common.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
-/home/parallels/6.828/qemu/include/qemu/typedefs.h:
+/root/6.828/qemu/include/qemu/typedefs.h:
 
-/home/parallels/6.828/qemu/include/glib-compat.h:
+/root/6.828/qemu/include/glib-compat.h:
 
-/home/parallels/6.828/qemu/include/qemu/option.h:
+/root/6.828/qemu/include/qemu/option.h:
 
-/home/parallels/6.828/qemu/include/sysemu/os-posix.h:
+/root/6.828/qemu/include/sysemu/os-posix.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:
 
-/home/parallels/6.828/qemu/include/qemu/bswap.h:
+/root/6.828/qemu/include/qemu/bswap.h:
 
-/home/parallels/6.828/qemu/include/fpu/softfloat.h:
+/root/6.828/qemu/include/fpu/softfloat.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:
 
-/home/parallels/6.828/qemu/include/qemu/module.h:
+/root/6.828/qemu/include/qemu/module.h:
 
-/home/parallels/6.828/qemu/include/exec/cpu-common.h:
+/root/6.828/qemu/include/exec/cpu-common.h:
 
-/home/parallels/6.828/qemu/include/exec/hwaddr.h:
+/root/6.828/qemu/include/exec/hwaddr.h:
 
-/home/parallels/6.828/qemu/include/exec/poison.h:
+/root/6.828/qemu/include/exec/poison.h:
 
-/home/parallels/6.828/qemu/include/qemu/bswap.h:
+/root/6.828/qemu/include/qemu/bswap.h:
 
-/home/parallels/6.828/qemu/include/exec/ioport.h:
+/root/6.828/qemu/include/exec/ioport.h:
 
-/home/parallels/6.828/qemu/include/qom/object.h:
+/root/6.828/qemu/include/qom/object.h:
 
-/home/parallels/6.828/qemu/include/exec/memory.h:
+/root/6.828/qemu/include/exec/memory.h:
 
-/home/parallels/6.828/qemu/include/qemu/int128.h:
+/root/6.828/qemu/include/qemu/int128.h:
 
-/home/parallels/6.828/qemu/include/qemu/notify.h:
+/root/6.828/qemu/include/qemu/notify.h:
 
-/home/parallels/6.828/qemu/include/qemu/rcu.h:
+/root/6.828/qemu/include/qemu/rcu.h:
 
-/home/parallels/6.828/qemu/include/qemu/thread.h:
+/root/6.828/qemu/include/qemu/thread.h:
 
-/home/parallels/6.828/qemu/include/qemu/thread-posix.h:
+/root/6.828/qemu/include/qemu/thread-posix.h:
 
-/home/parallels/6.828/qemu/include/hw/irq.h:
+/root/6.828/qemu/include/hw/irq.h:
 
-/home/parallels/6.828/qemu/include/block/aio.h:
+/root/6.828/qemu/include/block/aio.h:
 
-/home/parallels/6.828/qemu/include/qemu/typedefs.h:
+/root/6.828/qemu/include/qemu/typedefs.h:
 
-/home/parallels/6.828/qemu/include/qemu/event_notifier.h:
+/root/6.828/qemu/include/qemu/event_notifier.h:
 
-/home/parallels/6.828/qemu/include/qemu/rfifolock.h:
+/root/6.828/qemu/include/qemu/rfifolock.h:
 
-/home/parallels/6.828/qemu/include/qemu/timer.h:
+/root/6.828/qemu/include/qemu/timer.h:
 
-/home/parallels/6.828/qemu/include/migration/vmstate.h:
+/root/6.828/qemu/include/migration/vmstate.h:
 
-/home/parallels/6.828/qemu/include/migration/qemu-file.h:
+/root/6.828/qemu/include/migration/qemu-file.h:
 
-/home/parallels/6.828/qemu/include/qjson.h:
+/root/6.828/qemu/include/qjson.h:
 
-/home/parallels/6.828/qemu/include/qemu/log.h:
+/root/6.828/qemu/include/qemu/log.h:
 
-/home/parallels/6.828/qemu/include/qom/cpu.h:
+/root/6.828/qemu/include/qom/cpu.h:
 
-/home/parallels/6.828/qemu/include/hw/qdev-core.h:
+/root/6.828/qemu/include/hw/qdev-core.h:
 
-/home/parallels/6.828/qemu/include/qemu/bitmap.h:
+/root/6.828/qemu/include/qemu/bitmap.h:
 
-/home/parallels/6.828/qemu/include/qemu/bitops.h:
+/root/6.828/qemu/include/qemu/bitops.h:
 
-/home/parallels/6.828/qemu/include/qemu/host-utils.h:
+/root/6.828/qemu/include/qemu/host-utils.h:
 
-/home/parallels/6.828/qemu/include/hw/hotplug.h:
+/root/6.828/qemu/include/hw/hotplug.h:
 
-/home/parallels/6.828/qemu/include/qemu/tls.h:
+/root/6.828/qemu/include/qemu/tls.h:
 
-/home/parallels/6.828/qemu/include/hw/boards.h:
+/root/6.828/qemu/include/hw/boards.h:
 
-/home/parallels/6.828/qemu/include/sysemu/blockdev.h:
+/root/6.828/qemu/include/sysemu/blockdev.h:
 
-/home/parallels/6.828/qemu/include/block/block.h:
+/root/6.828/qemu/include/block/block.h:
 
-/home/parallels/6.828/qemu/include/block/coroutine.h:
+/root/6.828/qemu/include/block/coroutine.h:
 
-/home/parallels/6.828/qemu/include/block/accounting.h:
+/root/6.828/qemu/include/block/accounting.h:
 
-/home/parallels/6.828/qemu/include/sysemu/accel.h:
+/root/6.828/qemu/include/sysemu/accel.h:
 
-/home/parallels/6.828/qemu/include/hw/qdev.h:
+/root/6.828/qemu/include/hw/qdev.h:
 
-/home/parallels/6.828/qemu/include/hw/qdev-properties.h:
+/root/6.828/qemu/include/hw/qdev-properties.h:
 
-/home/parallels/6.828/qemu/include/hw/usb.h:
+/root/6.828/qemu/include/hw/usb.h:
 
-/home/parallels/6.828/qemu/include/hw/i386/pc.h:
+/root/6.828/qemu/include/hw/i386/pc.h:
 
-/home/parallels/6.828/qemu/include/hw/isa/isa.h:
+/root/6.828/qemu/include/hw/isa/isa.h:
 
-/home/parallels/6.828/qemu/include/hw/block/fdc.h:
+/root/6.828/qemu/include/hw/block/fdc.h:
 
-/home/parallels/6.828/qemu/include/net/net.h:
+/root/6.828/qemu/include/net/net.h:
 
-/home/parallels/6.828/qemu/include/net/queue.h:
+/root/6.828/qemu/include/net/queue.h:
 
-/home/parallels/6.828/qemu/include/hw/i386/ioapic.h:
+/root/6.828/qemu/include/hw/i386/ioapic.h:
 
-/home/parallels/6.828/qemu/include/qemu/range.h:
+/root/6.828/qemu/include/qemu/range.h:
 
-/home/parallels/6.828/qemu/include/sysemu/sysemu.h:
+/root/6.828/qemu/include/sysemu/sysemu.h:
 
-/home/parallels/6.828/qemu/include/qemu/main-loop.h:
+/root/6.828/qemu/include/qemu/main-loop.h:
 
-/home/parallels/6.828/qemu/include/hw/pci/pci.h:
+/root/6.828/qemu/include/hw/pci/pci.h:
 
-/home/parallels/6.828/qemu/include/sysemu/dma.h:
+/root/6.828/qemu/include/sysemu/dma.h:
 
-/home/parallels/6.828/qemu/include/exec/address-spaces.h:
+/root/6.828/qemu/include/exec/address-spaces.h:
 
-/home/parallels/6.828/qemu/include/sysemu/kvm.h:
+/root/6.828/qemu/include/sysemu/kvm.h:
 
-/home/parallels/6.828/qemu/include/hw/pci/pcie.h:
+/root/6.828/qemu/include/hw/pci/pcie.h:
 
-/home/parallels/6.828/qemu/include/hw/pci/pci_regs.h:
+/root/6.828/qemu/include/hw/pci/pci_regs.h:
 
-/home/parallels/6.828/qemu/include/hw/pci/pcie_regs.h:
+/root/6.828/qemu/include/hw/pci/pcie_regs.h:
 
-/home/parallels/6.828/qemu/include/hw/pci/pcie_aer.h:
+/root/6.828/qemu/include/hw/pci/pcie_aer.h:
 
-/home/parallels/6.828/qemu/include/hw/pci/pci_ids.h:
+/root/6.828/qemu/include/hw/pci/pci_ids.h:
 
-/home/parallels/6.828/qemu/include/hw/compat.h:
+/root/6.828/qemu/include/hw/compat.h:
 
-/home/parallels/6.828/qemu/include/hw/bt.h:
+/root/6.828/qemu/include/hw/bt.h:
 
-/home/parallels/6.828/qemu/include/sysemu/watchdog.h:
+/root/6.828/qemu/include/sysemu/watchdog.h:
 
-/home/parallels/6.828/qemu/include/hw/i386/smbios.h:
+/root/6.828/qemu/include/hw/i386/smbios.h:
 
-/home/parallels/6.828/qemu/include/hw/xen/xen.h:
+/root/6.828/qemu/include/hw/xen/xen.h:
 
-/home/parallels/6.828/qemu/include/hw/loader.h:
+/root/6.828/qemu/include/hw/loader.h:
 
-/home/parallels/6.828/qemu/include/hw/nvram/fw_cfg.h:
+/root/6.828/qemu/include/hw/nvram/fw_cfg.h:
 
-/home/parallels/6.828/qemu/include/monitor/qdev.h:
+/root/6.828/qemu/include/monitor/qdev.h:
 
-/home/parallels/6.828/qemu/include/monitor/monitor.h:
+/root/6.828/qemu/include/monitor/monitor.h:
 
-/home/parallels/6.828/qemu/include/qemu/readline.h:
+/root/6.828/qemu/include/qemu/readline.h:
 
-/home/parallels/6.828/qemu/include/sysemu/bt.h:
+/root/6.828/qemu/include/sysemu/bt.h:
 
-/home/parallels/6.828/qemu/include/net/slirp.h:
+/root/6.828/qemu/include/net/slirp.h:
 
-/home/parallels/6.828/qemu/include/ui/console.h:
+/root/6.828/qemu/include/ui/console.h:
 
-/home/parallels/6.828/qemu/include/ui/qemu-pixman.h:
+/root/6.828/qemu/include/ui/qemu-pixman.h:
 
 /usr/include/pixman-1/pixman.h:
 
 /usr/include/pixman-1/pixman-version.h:
 
-/home/parallels/6.828/qemu/include/sysemu/numa.h:
+/root/6.828/qemu/include/sysemu/numa.h:
 
-/home/parallels/6.828/qemu/include/sysemu/hostmem.h:
+/root/6.828/qemu/include/sysemu/hostmem.h:
 
-/home/parallels/6.828/qemu/include/exec/gdbstub.h:
+/root/6.828/qemu/include/exec/gdbstub.h:
 
-/home/parallels/6.828/qemu/include/sysemu/char.h:
+/root/6.828/qemu/include/sysemu/char.h:
 
-/home/parallels/6.828/qemu/include/qemu/config-file.h:
+/root/6.828/qemu/include/qemu/config-file.h:
 
-/home/parallels/6.828/qemu/include/hw/block/block.h:
+/root/6.828/qemu/include/hw/block/block.h:
 
-/home/parallels/6.828/qemu/include/migration/block.h:
+/root/6.828/qemu/include/migration/block.h:
 
-/home/parallels/6.828/qemu/include/sysemu/tpm.h:
+/root/6.828/qemu/include/sysemu/tpm.h:
 
 audio/audio.h:
 
-/home/parallels/6.828/qemu/include/migration/migration.h:
+/root/6.828/qemu/include/migration/migration.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qjson.h:
+/root/6.828/qemu/include/qapi/qmp/qjson.h:
 
 qemu-options.h:
 
@@ -567,13 +559,13 @@ qmp-commands.h:
 
 qapi-types.h:
 
-/home/parallels/6.828/qemu/include/sysemu/qtest.h:
+/root/6.828/qemu/include/sysemu/qtest.h:
 
-/home/parallels/6.828/qemu/include/disas/disas.h:
+/root/6.828/qemu/include/disas/disas.h:
 
 slirp/libslirp.h:
 
-/home/parallels/6.828/qemu/include/trace.h:
+/root/6.828/qemu/include/trace.h:
 
 trace/generated-tracers.h:
 
@@ -585,20 +577,20 @@ trace/control.h:
 
 trace/control-internal.h:
 
-/home/parallels/6.828/qemu/include/sysemu/cpus.h:
+/root/6.828/qemu/include/sysemu/cpus.h:
 
-/home/parallels/6.828/qemu/include/sysemu/arch_init.h:
+/root/6.828/qemu/include/sysemu/arch_init.h:
 
 qmp-commands.h:
 
-/home/parallels/6.828/qemu/include/ui/qemu-spice.h:
+/root/6.828/qemu/include/ui/qemu-spice.h:
 
-/home/parallels/6.828/qemu/include/qapi/string-input-visitor.h:
+/root/6.828/qemu/include/qapi/string-input-visitor.h:
 
-/home/parallels/6.828/qemu/include/qapi/visitor.h:
+/root/6.828/qemu/include/qapi/visitor.h:
 
-/home/parallels/6.828/qemu/include/qapi/opts-visitor.h:
+/root/6.828/qemu/include/qapi/opts-visitor.h:
 
-/home/parallels/6.828/qemu/include/qom/object_interfaces.h:
+/root/6.828/qemu/include/qom/object_interfaces.h:
 
 qapi-event.h:

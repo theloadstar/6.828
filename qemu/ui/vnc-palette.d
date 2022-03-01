@@ -1,9 +1,9 @@
 ui/vnc-palette.o: ui/vnc-palette.c ui/vnc-palette.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qlist.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qobject.h \
- /home/parallels/6.828/qemu/include/qemu/queue.h \
- /home/parallels/6.828/qemu/include/qemu/atomic.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h config-host.h \
+ /root/6.828/qemu/include/qapi/qmp/qlist.h \
+ /root/6.828/qemu/include/qapi/qmp/qobject.h \
+ /root/6.828/qemu/include/qemu/queue.h \
+ /root/6.828/qemu/include/qemu/atomic.h \
+ /root/6.828/qemu/include/qemu/compiler.h config-host.h \
  /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
  /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
@@ -71,15 +71,15 @@ ui/vnc-palette.o: ui/vnc-palette.c ui/vnc-palette.h \
 
 ui/vnc-palette.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qlist.h:
+/root/6.828/qemu/include/qapi/qmp/qlist.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qobject.h:
+/root/6.828/qemu/include/qapi/qmp/qobject.h:
 
-/home/parallels/6.828/qemu/include/qemu/queue.h:
+/root/6.828/qemu/include/qemu/queue.h:
 
-/home/parallels/6.828/qemu/include/qemu/atomic.h:
+/root/6.828/qemu/include/qemu/atomic.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
 config-host.h:
 

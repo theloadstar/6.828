@@ -63,29 +63,29 @@ slirp/dnssearch.o: slirp/dnssearch.c /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/deprecated/gthread.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h slirp/slirp.h \
  config-host.h slirp/slirp_config.h slirp/debug.h \
- /home/parallels/6.828/qemu/include/qemu/queue.h \
- /home/parallels/6.828/qemu/include/qemu/atomic.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h \
- /home/parallels/6.828/qemu/include/qemu/sockets.h \
- /home/parallels/6.828/qemu/include/qemu/option.h \
- /home/parallels/6.828/qemu/include/qapi/error.h qapi-types.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qdict.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qobject.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qlist.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qerror.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qstring.h \
- /home/parallels/6.828/qemu/include/qemu/error-report.h slirp/libslirp.h \
- /home/parallels/6.828/qemu/include/qemu-common.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h \
- /home/parallels/6.828/qemu/include/qemu/typedefs.h \
- /home/parallels/6.828/qemu/include/glib-compat.h \
- /home/parallels/6.828/qemu/include/qemu/option.h \
- /home/parallels/6.828/qemu/include/sysemu/os-posix.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h \
- /home/parallels/6.828/qemu/include/qemu/bswap.h \
- /home/parallels/6.828/qemu/include/fpu/softfloat.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h \
- /home/parallels/6.828/qemu/include/qemu/module.h slirp/ip.h slirp/tcp.h \
+ /root/6.828/qemu/include/qemu/queue.h \
+ /root/6.828/qemu/include/qemu/atomic.h \
+ /root/6.828/qemu/include/qemu/compiler.h \
+ /root/6.828/qemu/include/qemu/sockets.h \
+ /root/6.828/qemu/include/qemu/option.h \
+ /root/6.828/qemu/include/qapi/error.h qapi-types.h \
+ /root/6.828/qemu/include/qapi/qmp/qdict.h \
+ /root/6.828/qemu/include/qapi/qmp/qobject.h \
+ /root/6.828/qemu/include/qapi/qmp/qlist.h \
+ /root/6.828/qemu/include/qapi/qmp/qerror.h \
+ /root/6.828/qemu/include/qapi/qmp/qstring.h \
+ /root/6.828/qemu/include/qemu/error-report.h slirp/libslirp.h \
+ /root/6.828/qemu/include/qemu-common.h \
+ /root/6.828/qemu/include/qemu/compiler.h \
+ /root/6.828/qemu/include/qemu/typedefs.h \
+ /root/6.828/qemu/include/glib-compat.h \
+ /root/6.828/qemu/include/qemu/option.h \
+ /root/6.828/qemu/include/sysemu/os-posix.h \
+ /root/6.828/qemu/include/qemu/osdep.h \
+ /root/6.828/qemu/include/qemu/bswap.h \
+ /root/6.828/qemu/include/fpu/softfloat.h \
+ /root/6.828/qemu/include/qemu/osdep.h \
+ /root/6.828/qemu/include/qemu/module.h slirp/ip.h slirp/tcp.h \
  slirp/tcp_var.h slirp/tcpip.h slirp/tcp_timer.h slirp/udp.h \
  slirp/ip_icmp.h slirp/mbuf.h slirp/sbuf.h slirp/socket.h slirp/if.h \
  slirp/main.h slirp/misc.h slirp/bootp.h slirp/tftp.h
@@ -254,55 +254,55 @@ slirp/slirp_config.h:
 
 slirp/debug.h:
 
-/home/parallels/6.828/qemu/include/qemu/queue.h:
+/root/6.828/qemu/include/qemu/queue.h:
 
-/home/parallels/6.828/qemu/include/qemu/atomic.h:
+/root/6.828/qemu/include/qemu/atomic.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
-/home/parallels/6.828/qemu/include/qemu/sockets.h:
+/root/6.828/qemu/include/qemu/sockets.h:
 
-/home/parallels/6.828/qemu/include/qemu/option.h:
+/root/6.828/qemu/include/qemu/option.h:
 
-/home/parallels/6.828/qemu/include/qapi/error.h:
+/root/6.828/qemu/include/qapi/error.h:
 
 qapi-types.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qdict.h:
+/root/6.828/qemu/include/qapi/qmp/qdict.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qobject.h:
+/root/6.828/qemu/include/qapi/qmp/qobject.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qlist.h:
+/root/6.828/qemu/include/qapi/qmp/qlist.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qerror.h:
+/root/6.828/qemu/include/qapi/qmp/qerror.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qstring.h:
+/root/6.828/qemu/include/qapi/qmp/qstring.h:
 
-/home/parallels/6.828/qemu/include/qemu/error-report.h:
+/root/6.828/qemu/include/qemu/error-report.h:
 
 slirp/libslirp.h:
 
-/home/parallels/6.828/qemu/include/qemu-common.h:
+/root/6.828/qemu/include/qemu-common.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
-/home/parallels/6.828/qemu/include/qemu/typedefs.h:
+/root/6.828/qemu/include/qemu/typedefs.h:
 
-/home/parallels/6.828/qemu/include/glib-compat.h:
+/root/6.828/qemu/include/glib-compat.h:
 
-/home/parallels/6.828/qemu/include/qemu/option.h:
+/root/6.828/qemu/include/qemu/option.h:
 
-/home/parallels/6.828/qemu/include/sysemu/os-posix.h:
+/root/6.828/qemu/include/sysemu/os-posix.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:
 
-/home/parallels/6.828/qemu/include/qemu/bswap.h:
+/root/6.828/qemu/include/qemu/bswap.h:
 
-/home/parallels/6.828/qemu/include/fpu/softfloat.h:
+/root/6.828/qemu/include/fpu/softfloat.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:
 
-/home/parallels/6.828/qemu/include/qemu/module.h:
+/root/6.828/qemu/include/qemu/module.h:
 
 slirp/ip.h:
 

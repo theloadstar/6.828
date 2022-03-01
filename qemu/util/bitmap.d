@@ -1,10 +1,8 @@
-util/bitmap.o: util/bitmap.c \
- /home/parallels/6.828/qemu/include/qemu/bitops.h \
- /home/parallels/6.828/qemu/include/qemu/host-utils.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h config-host.h \
- /home/parallels/6.828/qemu/include/qemu/bitmap.h \
- /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
- /usr/include/glib-2.0/glib/gtypes.h \
+util/bitmap.o: util/bitmap.c /root/6.828/qemu/include/qemu/bitops.h \
+ /root/6.828/qemu/include/qemu/host-utils.h \
+ /root/6.828/qemu/include/qemu/compiler.h config-host.h \
+ /root/6.828/qemu/include/qemu/bitmap.h /usr/include/glib-2.0/glib.h \
+ /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
  /usr/include/glib-2.0/glib/gversionmacros.h \
@@ -67,17 +65,17 @@ util/bitmap.o: util/bitmap.c \
  /usr/include/glib-2.0/glib/deprecated/grel.h \
  /usr/include/glib-2.0/glib/deprecated/gthread.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h
+ /root/6.828/qemu/include/qemu/osdep.h
 
-/home/parallels/6.828/qemu/include/qemu/bitops.h:
+/root/6.828/qemu/include/qemu/bitops.h:
 
-/home/parallels/6.828/qemu/include/qemu/host-utils.h:
+/root/6.828/qemu/include/qemu/host-utils.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
 config-host.h:
 
-/home/parallels/6.828/qemu/include/qemu/bitmap.h:
+/root/6.828/qemu/include/qemu/bitmap.h:
 
 /usr/include/glib-2.0/glib.h:
 
@@ -235,4 +233,4 @@ config-host.h:
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:

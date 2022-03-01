@@ -1,5 +1,5 @@
 hw/acpi/aml-build.o: hw/acpi/aml-build.c \
- /home/parallels/6.828/qemu/include/hw/acpi/aml-build.h \
+ /root/6.828/qemu/include/hw/acpi/aml-build.h \
  /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
  /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
@@ -64,12 +64,12 @@ hw/acpi/aml-build.o: hw/acpi/aml-build.c \
  /usr/include/glib-2.0/glib/deprecated/grel.h \
  /usr/include/glib-2.0/glib/deprecated/gthread.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h config-host.h \
- /home/parallels/6.828/qemu/include/qemu/bswap.h \
- /home/parallels/6.828/qemu/include/fpu/softfloat.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h
+ /root/6.828/qemu/include/qemu/compiler.h config-host.h \
+ /root/6.828/qemu/include/qemu/bswap.h \
+ /root/6.828/qemu/include/fpu/softfloat.h \
+ /root/6.828/qemu/include/qemu/osdep.h
 
-/home/parallels/6.828/qemu/include/hw/acpi/aml-build.h:
+/root/6.828/qemu/include/hw/acpi/aml-build.h:
 
 /usr/include/glib-2.0/glib.h:
 
@@ -227,12 +227,12 @@ hw/acpi/aml-build.o: hw/acpi/aml-build.c \
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
 config-host.h:
 
-/home/parallels/6.828/qemu/include/qemu/bswap.h:
+/root/6.828/qemu/include/qemu/bswap.h:
 
-/home/parallels/6.828/qemu/include/fpu/softfloat.h:
+/root/6.828/qemu/include/fpu/softfloat.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:

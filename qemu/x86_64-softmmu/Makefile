@@ -1,1 +1,1 @@
-/home/parallels/6.828/qemu/Makefile.target
+/root/6.828/qemu/Makefile.target

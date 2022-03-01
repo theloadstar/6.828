@@ -1,8 +1,7 @@
 hw/acpi/acpi_interface.o: hw/acpi/acpi_interface.c \
- /home/parallels/6.828/qemu/include/hw/acpi/acpi_dev_interface.h \
- /home/parallels/6.828/qemu/include/qom/object.h \
- /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
- /usr/include/glib-2.0/glib/gtypes.h \
+ /root/6.828/qemu/include/hw/acpi/acpi_dev_interface.h \
+ /root/6.828/qemu/include/qom/object.h /usr/include/glib-2.0/glib.h \
+ /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
  /usr/include/glib-2.0/glib/gversionmacros.h \
@@ -65,16 +64,16 @@ hw/acpi/acpi_interface.o: hw/acpi/acpi_interface.c \
  /usr/include/glib-2.0/glib/deprecated/grel.h \
  /usr/include/glib-2.0/glib/deprecated/gthread.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
- /home/parallels/6.828/qemu/include/qemu/queue.h \
- /home/parallels/6.828/qemu/include/qemu/atomic.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h config-host.h \
- /home/parallels/6.828/qemu/include/qapi/error.h qapi-types.h \
- /home/parallels/6.828/qemu/include/qemu/module.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h
+ /root/6.828/qemu/include/qemu/queue.h \
+ /root/6.828/qemu/include/qemu/atomic.h \
+ /root/6.828/qemu/include/qemu/compiler.h config-host.h \
+ /root/6.828/qemu/include/qapi/error.h qapi-types.h \
+ /root/6.828/qemu/include/qemu/module.h \
+ /root/6.828/qemu/include/qemu/osdep.h
 
-/home/parallels/6.828/qemu/include/hw/acpi/acpi_dev_interface.h:
+/root/6.828/qemu/include/hw/acpi/acpi_dev_interface.h:
 
-/home/parallels/6.828/qemu/include/qom/object.h:
+/root/6.828/qemu/include/qom/object.h:
 
 /usr/include/glib-2.0/glib.h:
 
@@ -232,18 +231,18 @@ hw/acpi/acpi_interface.o: hw/acpi/acpi_interface.c \
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
-/home/parallels/6.828/qemu/include/qemu/queue.h:
+/root/6.828/qemu/include/qemu/queue.h:
 
-/home/parallels/6.828/qemu/include/qemu/atomic.h:
+/root/6.828/qemu/include/qemu/atomic.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
 config-host.h:
 
-/home/parallels/6.828/qemu/include/qapi/error.h:
+/root/6.828/qemu/include/qapi/error.h:
 
 qapi-types.h:
 
-/home/parallels/6.828/qemu/include/qemu/module.h:
+/root/6.828/qemu/include/qemu/module.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:

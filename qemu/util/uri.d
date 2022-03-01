@@ -62,7 +62,7 @@ util/uri.o: util/uri.c /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/deprecated/grel.h \
  /usr/include/glib-2.0/glib/deprecated/gthread.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
- /home/parallels/6.828/qemu/include/qemu/uri.h
+ /root/6.828/qemu/include/qemu/uri.h
 
 /usr/include/glib-2.0/glib.h:
 
@@ -220,4 +220,4 @@ util/uri.o: util/uri.c /usr/include/glib-2.0/glib.h \
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
-/home/parallels/6.828/qemu/include/qemu/uri.h:
+/root/6.828/qemu/include/qemu/uri.h:

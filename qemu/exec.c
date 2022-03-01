@@ -46,9 +46,9 @@
 #include "sysemu/xen-mapcache.h"
 #include "trace.h"
 #endif
-#include "exec/cpu-all.h"
-#include "qemu/rcu_queue.h"
-#include "exec/cputlb.h"
+#include "include/exec/cpu-all.h"
+#include "include/qemu/rcu_queue.h"
+#include "include/exec/cputlb.h"
 #include "translate-all.h"
 
 #include "exec/memory-internal.h"

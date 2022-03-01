@@ -1,4 +1,3 @@
-stubs/gdbstub.o: stubs/gdbstub.c \
- /home/parallels/6.828/qemu/include/exec/gdbstub.h
+stubs/gdbstub.o: stubs/gdbstub.c /root/6.828/qemu/include/exec/gdbstub.h
 
-/home/parallels/6.828/qemu/include/exec/gdbstub.h:
+/root/6.828/qemu/include/exec/gdbstub.h:

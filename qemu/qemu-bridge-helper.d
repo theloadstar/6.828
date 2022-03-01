@@ -63,10 +63,9 @@ qemu-bridge-helper.o: qemu-bridge-helper.c config-host.h \
  /usr/include/glib-2.0/glib/deprecated/grel.h \
  /usr/include/glib-2.0/glib/deprecated/gthread.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
- /home/parallels/6.828/qemu/include/qemu/queue.h \
- /home/parallels/6.828/qemu/include/qemu/atomic.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h config-host.h \
- net/tap-linux.h
+ /root/6.828/qemu/include/qemu/queue.h \
+ /root/6.828/qemu/include/qemu/atomic.h \
+ /root/6.828/qemu/include/qemu/compiler.h config-host.h net/tap-linux.h
 
 config-host.h:
 
@@ -226,11 +225,11 @@ config-host.h:
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
-/home/parallels/6.828/qemu/include/qemu/queue.h:
+/root/6.828/qemu/include/qemu/queue.h:
 
-/home/parallels/6.828/qemu/include/qemu/atomic.h:
+/root/6.828/qemu/include/qemu/atomic.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
 config-host.h:
 

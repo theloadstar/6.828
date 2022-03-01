@@ -62,14 +62,14 @@ qapi/qmp-registry.o: qapi/qmp-registry.c /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/deprecated/grel.h \
  /usr/include/glib-2.0/glib/deprecated/gthread.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/dispatch.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qobject.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qdict.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qlist.h \
- /home/parallels/6.828/qemu/include/qemu/queue.h \
- /home/parallels/6.828/qemu/include/qemu/atomic.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h config-host.h \
- /home/parallels/6.828/qemu/include/qapi/error.h qapi-types.h
+ /root/6.828/qemu/include/qapi/qmp/dispatch.h \
+ /root/6.828/qemu/include/qapi/qmp/qobject.h \
+ /root/6.828/qemu/include/qapi/qmp/qdict.h \
+ /root/6.828/qemu/include/qapi/qmp/qlist.h \
+ /root/6.828/qemu/include/qemu/queue.h \
+ /root/6.828/qemu/include/qemu/atomic.h \
+ /root/6.828/qemu/include/qemu/compiler.h config-host.h \
+ /root/6.828/qemu/include/qapi/error.h qapi-types.h
 
 /usr/include/glib-2.0/glib.h:
 
@@ -227,22 +227,22 @@ qapi/qmp-registry.o: qapi/qmp-registry.c /usr/include/glib-2.0/glib.h \
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/dispatch.h:
+/root/6.828/qemu/include/qapi/qmp/dispatch.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qobject.h:
+/root/6.828/qemu/include/qapi/qmp/qobject.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qdict.h:
+/root/6.828/qemu/include/qapi/qmp/qdict.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qlist.h:
+/root/6.828/qemu/include/qapi/qmp/qlist.h:
 
-/home/parallels/6.828/qemu/include/qemu/queue.h:
+/root/6.828/qemu/include/qemu/queue.h:
 
-/home/parallels/6.828/qemu/include/qemu/atomic.h:
+/root/6.828/qemu/include/qemu/atomic.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
 config-host.h:
 
-/home/parallels/6.828/qemu/include/qapi/error.h:
+/root/6.828/qemu/include/qapi/error.h:
 
 qapi-types.h:

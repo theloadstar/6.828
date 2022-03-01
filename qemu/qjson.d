@@ -1,7 +1,6 @@
-qjson.o: qjson.c /home/parallels/6.828/qemu/include/qapi/qmp/qstring.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qobject.h \
- /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
- /usr/include/glib-2.0/glib/gtypes.h \
+qjson.o: qjson.c /root/6.828/qemu/include/qapi/qmp/qstring.h \
+ /root/6.828/qemu/include/qapi/qmp/qobject.h /usr/include/glib-2.0/glib.h \
+ /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
  /usr/include/glib-2.0/glib/gversionmacros.h \
@@ -64,18 +63,17 @@ qjson.o: qjson.c /home/parallels/6.828/qemu/include/qapi/qmp/qstring.h \
  /usr/include/glib-2.0/glib/deprecated/grel.h \
  /usr/include/glib-2.0/glib/deprecated/gthread.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
- /home/parallels/6.828/qemu/include/qjson.h \
- /home/parallels/6.828/qemu/include/qemu/module.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h config-host.h \
- /home/parallels/6.828/qemu/include/qom/object.h \
- /home/parallels/6.828/qemu/include/qemu/queue.h \
- /home/parallels/6.828/qemu/include/qemu/atomic.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h \
- /home/parallels/6.828/qemu/include/qapi/error.h qapi-types.h
+ /root/6.828/qemu/include/qjson.h /root/6.828/qemu/include/qemu/module.h \
+ /root/6.828/qemu/include/qemu/osdep.h config-host.h \
+ /root/6.828/qemu/include/qom/object.h \
+ /root/6.828/qemu/include/qemu/queue.h \
+ /root/6.828/qemu/include/qemu/atomic.h \
+ /root/6.828/qemu/include/qemu/compiler.h \
+ /root/6.828/qemu/include/qapi/error.h qapi-types.h
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qstring.h:
+/root/6.828/qemu/include/qapi/qmp/qstring.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qobject.h:
+/root/6.828/qemu/include/qapi/qmp/qobject.h:
 
 /usr/include/glib-2.0/glib.h:
 
@@ -233,22 +231,22 @@ qjson.o: qjson.c /home/parallels/6.828/qemu/include/qapi/qmp/qstring.h \
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
-/home/parallels/6.828/qemu/include/qjson.h:
+/root/6.828/qemu/include/qjson.h:
 
-/home/parallels/6.828/qemu/include/qemu/module.h:
+/root/6.828/qemu/include/qemu/module.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:
 
 config-host.h:
 
-/home/parallels/6.828/qemu/include/qom/object.h:
+/root/6.828/qemu/include/qom/object.h:
 
-/home/parallels/6.828/qemu/include/qemu/queue.h:
+/root/6.828/qemu/include/qemu/queue.h:
 
-/home/parallels/6.828/qemu/include/qemu/atomic.h:
+/root/6.828/qemu/include/qemu/atomic.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
-/home/parallels/6.828/qemu/include/qapi/error.h:
+/root/6.828/qemu/include/qapi/error.h:
 
 qapi-types.h:

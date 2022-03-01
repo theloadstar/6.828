@@ -1,14 +1,11 @@
-target-i386/cc_helper.o: \
- /home/parallels/6.828/qemu/target-i386/cc_helper.c \
- /home/parallels/6.828/qemu/target-i386/cpu.h \
- /home/parallels/6.828/qemu/include/config.h \
- /home/parallels/6.828/qemu/config-host.h config-target.h \
- /home/parallels/6.828/qemu/include/qemu-common.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h \
- /home/parallels/6.828/qemu/include/qemu/typedefs.h \
- /home/parallels/6.828/qemu/include/glib-compat.h \
- /usr/include/glib-2.0/glib.h /usr/include/glib-2.0/glib/galloca.h \
- /usr/include/glib-2.0/glib/gtypes.h \
+target-i386/cc_helper.o: /root/6.828/qemu/target-i386/cc_helper.c \
+ /root/6.828/qemu/target-i386/cpu.h /root/6.828/qemu/include/config.h \
+ /root/6.828/qemu/config-host.h config-target.h \
+ /root/6.828/qemu/include/qemu-common.h \
+ /root/6.828/qemu/include/qemu/compiler.h \
+ /root/6.828/qemu/include/qemu/typedefs.h \
+ /root/6.828/qemu/include/glib-compat.h /usr/include/glib-2.0/glib.h \
+ /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \
  /usr/include/glib-2.0/glib/gmacros.h \
  /usr/include/glib-2.0/glib/gversionmacros.h \
@@ -71,74 +68,70 @@ target-i386/cc_helper.o: \
  /usr/include/glib-2.0/glib/deprecated/grel.h \
  /usr/include/glib-2.0/glib/deprecated/gthread.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
- /home/parallels/6.828/qemu/include/qemu/option.h \
- /home/parallels/6.828/qemu/include/qemu/queue.h \
- /home/parallels/6.828/qemu/include/qemu/atomic.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h \
- /home/parallels/6.828/qemu/include/qapi/error.h \
- /home/parallels/6.828/qemu/qapi-types.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qdict.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qobject.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qlist.h \
- /home/parallels/6.828/qemu/include/sysemu/os-posix.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h \
- /home/parallels/6.828/qemu/include/qemu/bswap.h \
- /home/parallels/6.828/qemu/include/fpu/softfloat.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h \
- /home/parallels/6.828/qemu/target-i386/cpu.h \
- /home/parallels/6.828/qemu/include/qemu/module.h \
- /home/parallels/6.828/qemu/include/exec/cpu-defs.h \
- /home/parallels/6.828/qemu/include/exec/hwaddr.h \
- /home/parallels/6.828/qemu/target-i386/cpu-qom.h \
- /home/parallels/6.828/qemu/include/qom/cpu.h \
- /home/parallels/6.828/qemu/include/hw/qdev-core.h \
- /home/parallels/6.828/qemu/include/qemu/option.h \
- /home/parallels/6.828/qemu/include/qemu/typedefs.h \
- /home/parallels/6.828/qemu/include/qemu/bitmap.h \
- /home/parallels/6.828/qemu/include/qemu/bitops.h \
- /home/parallels/6.828/qemu/include/qemu/host-utils.h \
- /home/parallels/6.828/qemu/include/qom/object.h \
- /home/parallels/6.828/qemu/include/hw/irq.h \
- /home/parallels/6.828/qemu/include/hw/hotplug.h \
- /home/parallels/6.828/qemu/include/qemu/thread.h \
- /home/parallels/6.828/qemu/include/qemu/thread-posix.h \
- /home/parallels/6.828/qemu/include/qemu/tls.h \
- /home/parallels/6.828/qemu/include/exec/cpu-all.h \
- /home/parallels/6.828/qemu/include/exec/cpu-common.h \
- /home/parallels/6.828/qemu/include/qemu/bswap.h \
- /home/parallels/6.828/qemu/include/exec/memory.h \
- /home/parallels/6.828/qemu/include/qemu/int128.h \
- /home/parallels/6.828/qemu/include/qemu/notify.h \
- /home/parallels/6.828/qemu/include/qemu/rcu.h \
- /home/parallels/6.828/qemu/target-i386/svm.h \
- /home/parallels/6.828/qemu/include/hw/i386/apic.h \
- /home/parallels/6.828/qemu/include/exec/exec-all.h \
- /home/parallels/6.828/qemu/include/qemu/log.h \
- /home/parallels/6.828/qemu/include/disas/disas.h \
- /home/parallels/6.828/qemu/include/exec/spinlock.h \
- /home/parallels/6.828/qemu/include/exec/helper-proto.h \
- /home/parallels/6.828/qemu/include/exec/helper-head.h \
- /home/parallels/6.828/qemu/target-i386/helper.h \
- /home/parallels/6.828/qemu/target-i386/ops_sse_header.h \
- /home/parallels/6.828/qemu/trace/generated-helpers.h \
- /home/parallels/6.828/qemu/tcg/tcg-runtime.h \
- /home/parallels/6.828/qemu/target-i386/cc_helper_template.h
+ /root/6.828/qemu/include/qemu/option.h \
+ /root/6.828/qemu/include/qemu/queue.h \
+ /root/6.828/qemu/include/qemu/atomic.h \
+ /root/6.828/qemu/include/qemu/compiler.h \
+ /root/6.828/qemu/include/qapi/error.h /root/6.828/qemu/qapi-types.h \
+ /root/6.828/qemu/include/qapi/qmp/qdict.h \
+ /root/6.828/qemu/include/qapi/qmp/qobject.h \
+ /root/6.828/qemu/include/qapi/qmp/qlist.h \
+ /root/6.828/qemu/include/sysemu/os-posix.h \
+ /root/6.828/qemu/include/qemu/osdep.h \
+ /root/6.828/qemu/include/qemu/bswap.h \
+ /root/6.828/qemu/include/fpu/softfloat.h \
+ /root/6.828/qemu/include/qemu/osdep.h /root/6.828/qemu/target-i386/cpu.h \
+ /root/6.828/qemu/include/qemu/module.h \
+ /root/6.828/qemu/include/exec/cpu-defs.h \
+ /root/6.828/qemu/include/exec/hwaddr.h \
+ /root/6.828/qemu/target-i386/cpu-qom.h \
+ /root/6.828/qemu/include/qom/cpu.h \
+ /root/6.828/qemu/include/hw/qdev-core.h \
+ /root/6.828/qemu/include/qemu/option.h \
+ /root/6.828/qemu/include/qemu/typedefs.h \
+ /root/6.828/qemu/include/qemu/bitmap.h \
+ /root/6.828/qemu/include/qemu/bitops.h \
+ /root/6.828/qemu/include/qemu/host-utils.h \
+ /root/6.828/qemu/include/qom/object.h /root/6.828/qemu/include/hw/irq.h \
+ /root/6.828/qemu/include/hw/hotplug.h \
+ /root/6.828/qemu/include/qemu/thread.h \
+ /root/6.828/qemu/include/qemu/thread-posix.h \
+ /root/6.828/qemu/include/qemu/tls.h \
+ /root/6.828/qemu/include/exec/cpu-all.h \
+ /root/6.828/qemu/include/exec/cpu-common.h \
+ /root/6.828/qemu/include/qemu/bswap.h \
+ /root/6.828/qemu/include/exec/memory.h \
+ /root/6.828/qemu/include/qemu/int128.h \
+ /root/6.828/qemu/include/qemu/notify.h \
+ /root/6.828/qemu/include/qemu/rcu.h /root/6.828/qemu/target-i386/svm.h \
+ /root/6.828/qemu/include/hw/i386/apic.h \
+ /root/6.828/qemu/include/exec/exec-all.h \
+ /root/6.828/qemu/include/qemu/log.h \
+ /root/6.828/qemu/include/disas/disas.h \
+ /root/6.828/qemu/include/exec/spinlock.h \
+ /root/6.828/qemu/include/exec/helper-proto.h \
+ /root/6.828/qemu/include/exec/helper-head.h \
+ /root/6.828/qemu/target-i386/helper.h \
+ /root/6.828/qemu/target-i386/ops_sse_header.h \
+ /root/6.828/qemu/trace/generated-helpers.h \
+ /root/6.828/qemu/tcg/tcg-runtime.h \
+ /root/6.828/qemu/target-i386/cc_helper_template.h
 
-/home/parallels/6.828/qemu/target-i386/cpu.h:
+/root/6.828/qemu/target-i386/cpu.h:
 
-/home/parallels/6.828/qemu/include/config.h:
+/root/6.828/qemu/include/config.h:
 
-/home/parallels/6.828/qemu/config-host.h:
+/root/6.828/qemu/config-host.h:
 
 config-target.h:
 
-/home/parallels/6.828/qemu/include/qemu-common.h:
+/root/6.828/qemu/include/qemu-common.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
-/home/parallels/6.828/qemu/include/qemu/typedefs.h:
+/root/6.828/qemu/include/qemu/typedefs.h:
 
-/home/parallels/6.828/qemu/include/glib-compat.h:
+/root/6.828/qemu/include/glib-compat.h:
 
 /usr/include/glib-2.0/glib.h:
 
@@ -296,106 +289,106 @@ config-target.h:
 
 /usr/include/glib-2.0/glib/glib-autocleanups.h:
 
-/home/parallels/6.828/qemu/include/qemu/option.h:
+/root/6.828/qemu/include/qemu/option.h:
 
-/home/parallels/6.828/qemu/include/qemu/queue.h:
+/root/6.828/qemu/include/qemu/queue.h:
 
-/home/parallels/6.828/qemu/include/qemu/atomic.h:
+/root/6.828/qemu/include/qemu/atomic.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
-/home/parallels/6.828/qemu/include/qapi/error.h:
+/root/6.828/qemu/include/qapi/error.h:
 
-/home/parallels/6.828/qemu/qapi-types.h:
+/root/6.828/qemu/qapi-types.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qdict.h:
+/root/6.828/qemu/include/qapi/qmp/qdict.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qobject.h:
+/root/6.828/qemu/include/qapi/qmp/qobject.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qlist.h:
+/root/6.828/qemu/include/qapi/qmp/qlist.h:
 
-/home/parallels/6.828/qemu/include/sysemu/os-posix.h:
+/root/6.828/qemu/include/sysemu/os-posix.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:
 
-/home/parallels/6.828/qemu/include/qemu/bswap.h:
+/root/6.828/qemu/include/qemu/bswap.h:
 
-/home/parallels/6.828/qemu/include/fpu/softfloat.h:
+/root/6.828/qemu/include/fpu/softfloat.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:
 
-/home/parallels/6.828/qemu/target-i386/cpu.h:
+/root/6.828/qemu/target-i386/cpu.h:
 
-/home/parallels/6.828/qemu/include/qemu/module.h:
+/root/6.828/qemu/include/qemu/module.h:
 
-/home/parallels/6.828/qemu/include/exec/cpu-defs.h:
+/root/6.828/qemu/include/exec/cpu-defs.h:
 
-/home/parallels/6.828/qemu/include/exec/hwaddr.h:
+/root/6.828/qemu/include/exec/hwaddr.h:
 
-/home/parallels/6.828/qemu/target-i386/cpu-qom.h:
+/root/6.828/qemu/target-i386/cpu-qom.h:
 
-/home/parallels/6.828/qemu/include/qom/cpu.h:
+/root/6.828/qemu/include/qom/cpu.h:
 
-/home/parallels/6.828/qemu/include/hw/qdev-core.h:
+/root/6.828/qemu/include/hw/qdev-core.h:
 
-/home/parallels/6.828/qemu/include/qemu/option.h:
+/root/6.828/qemu/include/qemu/option.h:
 
-/home/parallels/6.828/qemu/include/qemu/typedefs.h:
+/root/6.828/qemu/include/qemu/typedefs.h:
 
-/home/parallels/6.828/qemu/include/qemu/bitmap.h:
+/root/6.828/qemu/include/qemu/bitmap.h:
 
-/home/parallels/6.828/qemu/include/qemu/bitops.h:
+/root/6.828/qemu/include/qemu/bitops.h:
 
-/home/parallels/6.828/qemu/include/qemu/host-utils.h:
+/root/6.828/qemu/include/qemu/host-utils.h:
 
-/home/parallels/6.828/qemu/include/qom/object.h:
+/root/6.828/qemu/include/qom/object.h:
 
-/home/parallels/6.828/qemu/include/hw/irq.h:
+/root/6.828/qemu/include/hw/irq.h:
 
-/home/parallels/6.828/qemu/include/hw/hotplug.h:
+/root/6.828/qemu/include/hw/hotplug.h:
 
-/home/parallels/6.828/qemu/include/qemu/thread.h:
+/root/6.828/qemu/include/qemu/thread.h:
 
-/home/parallels/6.828/qemu/include/qemu/thread-posix.h:
+/root/6.828/qemu/include/qemu/thread-posix.h:
 
-/home/parallels/6.828/qemu/include/qemu/tls.h:
+/root/6.828/qemu/include/qemu/tls.h:
 
-/home/parallels/6.828/qemu/include/exec/cpu-all.h:
+/root/6.828/qemu/include/exec/cpu-all.h:
 
-/home/parallels/6.828/qemu/include/exec/cpu-common.h:
+/root/6.828/qemu/include/exec/cpu-common.h:
 
-/home/parallels/6.828/qemu/include/qemu/bswap.h:
+/root/6.828/qemu/include/qemu/bswap.h:
 
-/home/parallels/6.828/qemu/include/exec/memory.h:
+/root/6.828/qemu/include/exec/memory.h:
 
-/home/parallels/6.828/qemu/include/qemu/int128.h:
+/root/6.828/qemu/include/qemu/int128.h:
 
-/home/parallels/6.828/qemu/include/qemu/notify.h:
+/root/6.828/qemu/include/qemu/notify.h:
 
-/home/parallels/6.828/qemu/include/qemu/rcu.h:
+/root/6.828/qemu/include/qemu/rcu.h:
 
-/home/parallels/6.828/qemu/target-i386/svm.h:
+/root/6.828/qemu/target-i386/svm.h:
 
-/home/parallels/6.828/qemu/include/hw/i386/apic.h:
+/root/6.828/qemu/include/hw/i386/apic.h:
 
-/home/parallels/6.828/qemu/include/exec/exec-all.h:
+/root/6.828/qemu/include/exec/exec-all.h:
 
-/home/parallels/6.828/qemu/include/qemu/log.h:
+/root/6.828/qemu/include/qemu/log.h:
 
-/home/parallels/6.828/qemu/include/disas/disas.h:
+/root/6.828/qemu/include/disas/disas.h:
 
-/home/parallels/6.828/qemu/include/exec/spinlock.h:
+/root/6.828/qemu/include/exec/spinlock.h:
 
-/home/parallels/6.828/qemu/include/exec/helper-proto.h:
+/root/6.828/qemu/include/exec/helper-proto.h:
 
-/home/parallels/6.828/qemu/include/exec/helper-head.h:
+/root/6.828/qemu/include/exec/helper-head.h:
 
-/home/parallels/6.828/qemu/target-i386/helper.h:
+/root/6.828/qemu/target-i386/helper.h:
 
-/home/parallels/6.828/qemu/target-i386/ops_sse_header.h:
+/root/6.828/qemu/target-i386/ops_sse_header.h:
 
-/home/parallels/6.828/qemu/trace/generated-helpers.h:
+/root/6.828/qemu/trace/generated-helpers.h:
 
-/home/parallels/6.828/qemu/tcg/tcg-runtime.h:
+/root/6.828/qemu/tcg/tcg-runtime.h:
 
-/home/parallels/6.828/qemu/target-i386/cc_helper_template.h:
+/root/6.828/qemu/target-i386/cc_helper_template.h:

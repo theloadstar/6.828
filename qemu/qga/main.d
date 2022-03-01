@@ -63,36 +63,35 @@ qga/main.o: qga/main.c /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/deprecated/gthread.h \
  /usr/include/glib-2.0/glib/glib-autocleanups.h \
  /usr/include/glib-2.0/glib/gstdio.h /usr/include/glib-2.0/glib/gprintf.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/json-streamer.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qlist.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qobject.h \
- /home/parallels/6.828/qemu/include/qemu/queue.h \
- /home/parallels/6.828/qemu/include/qemu/atomic.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h config-host.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/json-lexer.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qstring.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/json-parser.h \
- /home/parallels/6.828/qemu/include/qemu-common.h \
- /home/parallels/6.828/qemu/include/qemu/compiler.h \
- /home/parallels/6.828/qemu/include/qemu/typedefs.h \
- /home/parallels/6.828/qemu/include/glib-compat.h \
- /home/parallels/6.828/qemu/include/qemu/option.h \
- /home/parallels/6.828/qemu/include/qapi/error.h qapi-types.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qdict.h \
- /home/parallels/6.828/qemu/include/sysemu/os-posix.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h \
- /home/parallels/6.828/qemu/include/qemu/bswap.h \
- /home/parallels/6.828/qemu/include/fpu/softfloat.h \
- /home/parallels/6.828/qemu/include/qemu/osdep.h \
- /home/parallels/6.828/qemu/include/qemu/module.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qint.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qjson.h \
- qga/guest-agent-core.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/dispatch.h \
- /home/parallels/6.828/qemu/include/qemu/module.h \
- /home/parallels/6.828/qemu/include/qapi/qmp/qerror.h \
- /home/parallels/6.828/qemu/include/qemu/error-report.h qga/channel.h \
- /home/parallels/6.828/qemu/include/qemu/bswap.h
+ /root/6.828/qemu/include/qapi/qmp/json-streamer.h \
+ /root/6.828/qemu/include/qapi/qmp/qlist.h \
+ /root/6.828/qemu/include/qapi/qmp/qobject.h \
+ /root/6.828/qemu/include/qemu/queue.h \
+ /root/6.828/qemu/include/qemu/atomic.h \
+ /root/6.828/qemu/include/qemu/compiler.h config-host.h \
+ /root/6.828/qemu/include/qapi/qmp/json-lexer.h \
+ /root/6.828/qemu/include/qapi/qmp/qstring.h \
+ /root/6.828/qemu/include/qapi/qmp/json-parser.h \
+ /root/6.828/qemu/include/qemu-common.h \
+ /root/6.828/qemu/include/qemu/compiler.h \
+ /root/6.828/qemu/include/qemu/typedefs.h \
+ /root/6.828/qemu/include/glib-compat.h \
+ /root/6.828/qemu/include/qemu/option.h \
+ /root/6.828/qemu/include/qapi/error.h qapi-types.h \
+ /root/6.828/qemu/include/qapi/qmp/qdict.h \
+ /root/6.828/qemu/include/sysemu/os-posix.h \
+ /root/6.828/qemu/include/qemu/osdep.h \
+ /root/6.828/qemu/include/qemu/bswap.h \
+ /root/6.828/qemu/include/fpu/softfloat.h \
+ /root/6.828/qemu/include/qemu/osdep.h \
+ /root/6.828/qemu/include/qemu/module.h \
+ /root/6.828/qemu/include/qapi/qmp/qint.h \
+ /root/6.828/qemu/include/qapi/qmp/qjson.h qga/guest-agent-core.h \
+ /root/6.828/qemu/include/qapi/qmp/dispatch.h \
+ /root/6.828/qemu/include/qemu/module.h \
+ /root/6.828/qemu/include/qapi/qmp/qerror.h \
+ /root/6.828/qemu/include/qemu/error-report.h qga/channel.h \
+ /root/6.828/qemu/include/qemu/bswap.h
 
 /usr/include/glib-2.0/glib.h:
 
@@ -254,68 +253,68 @@ qga/main.o: qga/main.c /usr/include/glib-2.0/glib.h \
 
 /usr/include/glib-2.0/glib/gprintf.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/json-streamer.h:
+/root/6.828/qemu/include/qapi/qmp/json-streamer.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qlist.h:
+/root/6.828/qemu/include/qapi/qmp/qlist.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qobject.h:
+/root/6.828/qemu/include/qapi/qmp/qobject.h:
 
-/home/parallels/6.828/qemu/include/qemu/queue.h:
+/root/6.828/qemu/include/qemu/queue.h:
 
-/home/parallels/6.828/qemu/include/qemu/atomic.h:
+/root/6.828/qemu/include/qemu/atomic.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
 config-host.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/json-lexer.h:
+/root/6.828/qemu/include/qapi/qmp/json-lexer.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qstring.h:
+/root/6.828/qemu/include/qapi/qmp/qstring.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/json-parser.h:
+/root/6.828/qemu/include/qapi/qmp/json-parser.h:
 
-/home/parallels/6.828/qemu/include/qemu-common.h:
+/root/6.828/qemu/include/qemu-common.h:
 
-/home/parallels/6.828/qemu/include/qemu/compiler.h:
+/root/6.828/qemu/include/qemu/compiler.h:
 
-/home/parallels/6.828/qemu/include/qemu/typedefs.h:
+/root/6.828/qemu/include/qemu/typedefs.h:
 
-/home/parallels/6.828/qemu/include/glib-compat.h:
+/root/6.828/qemu/include/glib-compat.h:
 
-/home/parallels/6.828/qemu/include/qemu/option.h:
+/root/6.828/qemu/include/qemu/option.h:
 
-/home/parallels/6.828/qemu/include/qapi/error.h:
+/root/6.828/qemu/include/qapi/error.h:
 
 qapi-types.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qdict.h:
+/root/6.828/qemu/include/qapi/qmp/qdict.h:
 
-/home/parallels/6.828/qemu/include/sysemu/os-posix.h:
+/root/6.828/qemu/include/sysemu/os-posix.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:
 
-/home/parallels/6.828/qemu/include/qemu/bswap.h:
+/root/6.828/qemu/include/qemu/bswap.h:
 
-/home/parallels/6.828/qemu/include/fpu/softfloat.h:
+/root/6.828/qemu/include/fpu/softfloat.h:
 
-/home/parallels/6.828/qemu/include/qemu/osdep.h:
+/root/6.828/qemu/include/qemu/osdep.h:
 
-/home/parallels/6.828/qemu/include/qemu/module.h:
+/root/6.828/qemu/include/qemu/module.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qint.h:
+/root/6.828/qemu/include/qapi/qmp/qint.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qjson.h:
+/root/6.828/qemu/include/qapi/qmp/qjson.h:
 
 qga/guest-agent-core.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/dispatch.h:
+/root/6.828/qemu/include/qapi/qmp/dispatch.h:
 
-/home/parallels/6.828/qemu/include/qemu/module.h:
+/root/6.828/qemu/include/qemu/module.h:
 
-/home/parallels/6.828/qemu/include/qapi/qmp/qerror.h:
+/root/6.828/qemu/include/qapi/qmp/qerror.h:
 
-/home/parallels/6.828/qemu/include/qemu/error-report.h:
+/root/6.828/qemu/include/qemu/error-report.h:
 
 qga/channel.h:
 
-/home/parallels/6.828/qemu/include/qemu/bswap.h:
+/root/6.828/qemu/include/qemu/bswap.h:
