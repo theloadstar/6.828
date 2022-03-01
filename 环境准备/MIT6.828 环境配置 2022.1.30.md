@@ -140,6 +140,12 @@ sudo apt-get install pkg-config
 
 这里[博客](https://www.cnblogs.com/JayL-zxl/p/14906344.html)里还说可能出现`Disabling libtool due to broken toolchain support`的错误，我没遇到，解决方法是`sudo apt-get install libtool*`（虽然没遇到，但我还是运行了。
 
+**20220301**
+在阿里云上配置环境时报错` *** No rule to make target '/home/parallels/6.828/qemu/exec.c', needed by 'exec.o'.  Stop.
+Makefile:173: recipe for target 'subdir-i386-softmmu' failed`
+解决方法：[参考](https://blog.csdn.net/Yichuan_Sun/article/details/117713328)
+注意最后一个translate不改
+
 ---
 
 # 编译QEMU
